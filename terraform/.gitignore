@@ -1,0 +1,12 @@
+# Ignore all private key files
+*.pem
+*.ppk
+
+# Specific key name (optional but safer)
+hema-lb-key.pem
+
+# Ignore local terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
